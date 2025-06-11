@@ -6,7 +6,7 @@ namespace ZKTecoUserImage
     {
         static void Main(string[] args)
         {
-            string ip = "192.168.1.201";
+            string ip = "192.168.70.39";
             int port = 4370;
 
             ZKManager zkManager = new ZKManager(ip, port);
